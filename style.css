@@ -1,0 +1,25 @@
+*,
+button,
+select,
+input,
+textarea {
+    font-family: "Quicksand", sans-serif;
+    font-size: 14pt;
+}
+
+body {
+    align-items: center;
+    background: #eee;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+select,
+input,
+textarea {
+    user-select: none;
+}
